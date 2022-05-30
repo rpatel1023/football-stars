@@ -20,7 +20,7 @@ void ADC_Init(void){
 	while((SYSCTL_PRGPIO_R&0x08) != 0x08){};
 	GPIO_PORTD_DIR_R &= ~(0x04);
 	GPIO_PORTD_AFSEL_R |= 0x04; // enable alternate fun
-	GPIO_PORTD_DEN_R &= ~(0x04); // disable digital I/O
+	GPIO_PORTD_DEN_R &= ~(0x34); // disable digital I/O
 	GPIO_PORTD_AMSEL_R |= 0x04; // enable analog input
 	SYSCTL_RCGCADC_R |= 0x01;   // ADC0 on
 	delay = SYSCTL_RCGCADC_R;
