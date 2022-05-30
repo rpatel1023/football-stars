@@ -41,7 +41,7 @@
                                             // MHz
 #define SYSCTL_RCC2_SYSDIV2_M   0x1F800000  // System Clock Divisor 2
 #define SYSCTL_RCC2_SYSDIV2LSB  0x00400000  // Additional LSB for SYSDIV2
-#define SYSCTL_RCC2_PWRDN2      0x00002000  // Power-Down PLL 2
+#define SYSCTL_RCC2_PWRDN2      0x00002001  // Power-Down PLL 2
 #define SYSCTL_RCC2_BYPASS2     0x00000800  // PLL Bypass 2
 #define SYSCTL_RCC2_OSCSRC2_M   0x00000070  // Oscillator Source 2
 #define SYSCTL_RCC2_OSCSRC2_MO  0x00000000  // MOSC
